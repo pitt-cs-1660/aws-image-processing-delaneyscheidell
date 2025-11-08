@@ -52,6 +52,7 @@ def greyscale_handler(event, context):
                     #
                     ######
                     # download image from S3
+                    # download image from S3
                     image = download_from_s3(bucket_name, object_key)
                     print(f"Downloaded image: {image.mode}")
 
